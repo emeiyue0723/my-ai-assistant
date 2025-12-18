@@ -64,7 +64,7 @@ if "messages" in st.session_state:
     st.session_state.messages[0] = {"role": "system", "content": system_prompt}
 # -----------------
 
-st.title("我的 AI 助手 🤖")
+st.title("我是AI 叶明哲 🤖")
 
 # --- 关键修改开始 ---
 # 检查 session_state 这个“保险箱”里有没有 'messages' 这个钥匙
